@@ -1,0 +1,10 @@
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.AssemblyInfoInputs.cache
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.AssemblyInfo.cs
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.csproj.CoreCompileInputs.cache
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.deps.json
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.dll
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\bin\Debug\netcoreapp3.1\NLayerProject.Core.pdb
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.dll
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.pdb
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Core\obj\Debug\netcoreapp3.1\NLayerProject.Core.csproj.AssemblyReference.cache

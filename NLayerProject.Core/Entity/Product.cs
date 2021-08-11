@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NLayerProject.Core.Entity
 {
-    class Product
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -14,7 +14,7 @@ namespace NLayerProject.Core.Entity
         public int CategoryId { get; set; }
         public bool IsDeleted { get; set; }
 
-        public string InnerBarkod { get; set; }
+        public string InnerBarcode { get; set; }
 
         public virtual Category Category { get; set; }
     }
