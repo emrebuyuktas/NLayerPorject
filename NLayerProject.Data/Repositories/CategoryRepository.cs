@@ -11,7 +11,7 @@ namespace NLayerProject.Data.Repositories
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private AppDbContext appDbContext { get => _context as AppDbContext; }
-        public CategoryRepository(DbContext dbContext) : base(dbContext)
+        public CategoryRepository(AppDbContext dbContext) : base(dbContext)
         {
         }
         public async Task<Category> GetWithProductsById(int categoryId)
