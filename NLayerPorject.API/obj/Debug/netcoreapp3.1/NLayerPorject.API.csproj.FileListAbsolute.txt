@@ -57,3 +57,5 @@ C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\bin\Debug\netcoreapp
 C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\obj\Debug\netcoreapp3.1\NLayerPorject.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\obj\Debug\netcoreapp3.1\NLayerPorject.API.csproj.CopyComplete
 C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\emreb\source\repos\NLayerPorject\NLayerPorject.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

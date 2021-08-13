@@ -15,7 +15,7 @@ namespace NLayerProject.Data.Repositories
         protected readonly DbContext _context;
         private readonly DbSet<TEntity> _dbSet;
 
-        public Repository(DbContext dbContext)
+        public Repository(AppDbContext dbContext)
         {
             _context = dbContext;
             _dbSet = _context.Set<TEntity>();
