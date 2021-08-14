@@ -9,7 +9,7 @@ namespace NLayerProject.Core.DTOs
     {
         public int Id { get; set; }
 
-        [Required]
+        [Required(ErrorMessage ="{0} alanı boş bırakılamaz")]
         public string Name { get; set; }
     }
 }
