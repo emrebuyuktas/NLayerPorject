@@ -1,4 +1,5 @@
-﻿using NLayerProject.Core.Entity;
+﻿using NLayerProject.Core.DTOs;
+using NLayerProject.Core.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;

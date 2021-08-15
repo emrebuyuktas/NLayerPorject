@@ -1,4 +1,5 @@
-﻿using NLayerProject.Core.Entity;
+﻿using NLayerProject.Core.DTOs;
+using NLayerProject.Core.Entity;
 using NLayerProject.Core.Repositories;
 using NLayerProject.Core.Services;
 using NLayerProject.Core.UnitOfWorks;
@@ -14,6 +15,7 @@ namespace NLayerProject.Service.Services
         public CategorySevice(IUnitOfWork unitOfWork, IRepository<Category> repository) : base(unitOfWork, repository)
         {
         }
+
 
         public async Task<Category> GetWithProductsById(int categoryId)
         {
