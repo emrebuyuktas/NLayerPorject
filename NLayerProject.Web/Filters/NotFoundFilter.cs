@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using NLayerProject.Core.DTOs;
-using NLayerProject.Core.Services;
+using NLayerProject.Web.CategoryApiFolder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,17 +11,18 @@ namespace NLayerProject.Web.Filters
 {
     public class NotFoundFilter: ActionFilterAttribute
     {
-        private readonly ICategoryService _categoryService;
+        private readonly CategoryApiService _categoryApiService;
 
-        public NotFoundFilter(ICategoryService categoryService)
+        public NotFoundFilter(CategoryApiService categoryApiService)
         {
-            _categoryService = categoryService;
+            _categoryApiService = categoryApiService;
         }
+
         public async override Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
             int id = (int)context.ActionArguments.Values.FirstOrDefault();
 
-            var product = await _categoryService.GetByIdAsync(id);
+            var product = await _categoryApiService.GetByIdAsync(id);
 
             if (product != null)
             {

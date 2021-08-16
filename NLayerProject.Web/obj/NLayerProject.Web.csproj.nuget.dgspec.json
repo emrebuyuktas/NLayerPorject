@@ -4,6 +4,87 @@
     "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Web\\NLayerProject.Web.csproj": {}
   },
   "projects": {
+    "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\NLayerPorject.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\NLayerPorject.API.csproj",
+        "projectName": "NLayerPorject.API",
+        "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\NLayerPorject.API.csproj",
+        "packagesPath": "C:\\Users\\emreb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\emreb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Core\\NLayerProject.Core.csproj": {
+                "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Core\\NLayerProject.Core.csproj"
+              },
+              "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Data\\NLayerProject.Data.csproj": {
+                "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Data\\NLayerProject.Data.csproj"
+              },
+              "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Service\\NLayerProject.Service.csproj": {
+                "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Service\\NLayerProject.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Core\\NLayerProject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -233,8 +314,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Service\\NLayerProject.Service.csproj": {
-                "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Service\\NLayerProject.Service.csproj"
+              "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\NLayerPorject.API.csproj": {
+                "projectPath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerPorject.API\\NLayerPorject.API.csproj"
               }
             }
           }
@@ -252,6 +333,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

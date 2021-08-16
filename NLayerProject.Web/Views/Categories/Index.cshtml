@@ -22,8 +22,8 @@
                     @category.Name
                 </td>
                 <td>
-                    <a asp-action="Update" class="btn btn-primary mr-1" asp-route-Id="@category.Id">Update</a>
-                    <a asp-action="Delete" class="btn btn-primary" asp-route-Id="@category.Id">Delete</a>
+                    <a asp-controller="categories" asp-action="Update" asp-route-categoryId="@category.Id" class="btn btn-primary">Update</a>
+                    <a asp-action="Delete" class="btn btn-primary" asp-route-id="@category.Id">Delete</a>
                 </td>
             </tr>
         }

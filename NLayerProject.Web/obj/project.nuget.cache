@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RbBbeJ+gr2iktMSbkYp4IY9+REYOeYgxCQflSipmKT198+MddKJJlesSZ97fNNHkCTv6ncFAJysV5abhmP5F6w==",
+  "dgSpecHash": "C/OT1lL8NCRBhhIbeCWA8hX6ie6HW4R8hYbrVqqbZv9f7ShPXKVdhG7q0SEdKnprgT9P9LD/7LLH9Fh1J3Maqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\emreb\\source\\repos\\NLayerPorject\\NLayerProject.Web\\NLayerProject.Web.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\emreb\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\emreb\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\emreb\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\emreb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\emreb\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\emreb\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\emreb\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

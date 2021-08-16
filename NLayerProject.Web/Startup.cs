@@ -13,6 +13,7 @@ using NLayerProject.Data;
 using NLayerProject.Data.Repositories;
 using NLayerProject.Data.UnitOfWorls;
 using NLayerProject.Service.Services;
+using NLayerProject.Web.CategoryApiFolder;
 using NLayerProject.Web.Filters;
 using System;
 using System.Collections.Generic;
@@ -33,25 +34,14 @@ namespace NLayerProject.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<CategoryApiService>(opt=> {
+                opt.BaseAddress = new Uri(Configuration["baseUrl"]);
+            });
+
             services.AddControllersWithViews();
             services.AddScoped<NotFoundFilter>();
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-            services.AddScoped(typeof(IService<>), typeof(Service<>));
-            services.AddScoped<ICategoryService, CategorySevice>();
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper(typeof(MapProfile));
-
-
-            services.AddDbContext<AppDbContext>(options =>
-            {
-                options.UseSqlServer(Configuration["ConnectionStrings:SqlConStr"].ToString(), o =>
-                {
-                    o.MigrationsAssembly("NLayerProject.Data");
-                }
-                );
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

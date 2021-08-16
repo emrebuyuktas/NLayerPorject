@@ -77,3 +77,11 @@ C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp
 C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Index.cshtml.g.cs
 C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Create.cshtml.g.cs
 C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\obj\Debug\netcoreapp3.1\Razor\Views\Categories\Update.cshtml.g.cs
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.deps.json
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.runtimeconfig.json
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.runtimeconfig.dev.json
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.exe
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.dll
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\NLayerPorject.API.pdb
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\obj\Debug\netcoreapp3.1\NLayerProject.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\emreb\source\repos\NLayerPorject\NLayerProject.Web\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
